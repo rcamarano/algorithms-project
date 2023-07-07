@@ -3,6 +3,7 @@
 import pytest
 from challenges.challenge_encrypt_message import encrypt_message
 
+
 def test_encrypt_message():
     # Testes com chave ímpar
     assert encrypt_message("batatinha", 5) == "tatab_ahni"
